@@ -14,7 +14,7 @@ def get_keys_from_next_unchecked_box(opened_boxes):
             return box.get('keys')
     return None
 
-def can_unlock_all_boxes(boxes):
+def canUnlockAll(boxes):
     """Check if all boxes can be unlocked
     Args:
         boxes (list): List which contain all the boxes with the keys
