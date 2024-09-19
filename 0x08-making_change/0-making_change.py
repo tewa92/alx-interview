@@ -6,6 +6,7 @@
 def makeChange(coins, total):
     if total <= 0:
         return 0
+    minCoins = sorted(coins)
     minCoins = [total + 1] * (total + 1)
     minCoins[0] = 0
     for i in range(total + 1):
